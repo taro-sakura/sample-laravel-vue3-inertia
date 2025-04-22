@@ -20,6 +20,7 @@ class TranslateController extends Controller
         $original_text = $request->original_text;
         $translate_text = NULL;
         if ($original_text) {
+            \Log::debug($original_text);
             $translate_text = $this->___translator($original_text);
         }
         return ['translate_text'=>$translate_text];

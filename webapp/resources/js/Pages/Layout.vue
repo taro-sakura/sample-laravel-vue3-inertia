@@ -54,7 +54,7 @@ defineProps({
                     <div class="px-8">
                         <h3 class="font-bold text-gray-900">About</h3>
                         <p class="py-4 text-gray-600 text-sm">
-                            Laravel11 / Vue3 / Inertia のサンプル
+                            Laravel12 / Vue3 / Inertia のサンプル
                         </p>
                     </div>
                 </div>
